@@ -42,7 +42,7 @@
 .container .item:nth-child(2){
     background-color: green;
     color: white;
-    flex-grow: 0.5;
+    /* flex-grow: 0.5; */
      
 
   
@@ -53,5 +53,5 @@
 container .item:nth-child(3){
     background-color: green;
     color: white;
-    flex-grow: 0.7;
-}
+    /* flex-grow: 0.7; */
+}                               
