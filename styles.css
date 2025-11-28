@@ -1,0 +1,57 @@
+.container{
+
+ width: 600px;
+ height: 400px;
+ background-color: rgba(0, 0, 255, 0.555);
+ outline: solid black 2px;
+ display:flex ;
+ flex-direction: row;
+ flex-wrap: wrap; 
+ 
+ /* justify-content: space-evenly; */
+
+}
+
+.item{
+  width: 100px;
+  /* flex-grow: 1; */
+  /* height: 100px; */
+  outline: solid black 1px;
+ /* padding-left:30px ; */
+ /* padding-top: 30px; */
+ box-sizing: border-box;
+}
+/* pseudoselectores */
+/*slectores para casos especificos*/
+.container .item:first-child{
+    background-color: yellow;
+    color: rgb(190, 54, 54);
+    flex-grow: 1;
+    /* flex-grow: ; VIENE EN CERO POR DEFECTO  */
+  
+   
+ 
+}
+
+.container .item:last-child{
+    background-color: yellow;
+    color: brown;
+   flex-grow: 1.4;
+ 
+}
+.container .item:nth-child(2){
+    background-color: green;
+    color: white;
+    flex-grow: 0.5;
+     
+
+  
+
+ 
+}
+
+container .item:nth-child(3){
+    background-color: green;
+    color: white;
+    flex-grow: 0.7;
+}
